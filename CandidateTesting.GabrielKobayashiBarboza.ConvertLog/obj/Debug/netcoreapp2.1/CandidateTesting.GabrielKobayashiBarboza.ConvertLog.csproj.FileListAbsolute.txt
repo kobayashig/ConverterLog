@@ -1,0 +1,11 @@
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.ConvertLog\bin\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.ConvertLog.deps.json
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.ConvertLog\bin\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.ConvertLog.runtimeconfig.json
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.ConvertLog\bin\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.ConvertLog.runtimeconfig.dev.json
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.ConvertLog\bin\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.ConvertLog.dll
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.ConvertLog\obj\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.ConvertLog.csprojAssemblyReference.cache
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.ConvertLog\obj\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.ConvertLog.csproj.CoreCompileInputs.cache
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.ConvertLog\obj\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.ConvertLog.AssemblyInfoInputs.cache
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.ConvertLog\obj\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.ConvertLog.AssemblyInfo.cs
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.ConvertLog\bin\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.ConvertLog.pdb
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.ConvertLog\obj\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.ConvertLog.dll
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.ConvertLog\obj\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.ConvertLog.pdb

@@ -1,0 +1,17 @@
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\bin\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.UnitTest.deps.json
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\bin\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.UnitTest.runtimeconfig.json
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\bin\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.UnitTest.runtimeconfig.dev.json
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\bin\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.UnitTest.dll
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\bin\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.UnitTest.pdb
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\bin\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.ConvertLog.dll
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\bin\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.ConvertLog.pdb
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\obj\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.UnitTest.csprojAssemblyReference.cache
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\obj\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\obj\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.UnitTest.AssemblyInfoInputs.cache
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\obj\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.UnitTest.AssemblyInfo.cs
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\obj\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.UnitTest.csproj.CopyComplete
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\obj\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.UnitTest.dll
+C:\Users\t2212gbr\source\repos\CandidateTesting.GabrielKobayashiBarboza\CandidateTesting.GabrielKobayashiBarboza.UnitTest\obj\Debug\netcoreapp2.1\CandidateTesting.GabrielKobayashiBarboza.UnitTest.pdb
