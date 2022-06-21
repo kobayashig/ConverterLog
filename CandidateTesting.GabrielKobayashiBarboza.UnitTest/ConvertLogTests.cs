@@ -71,7 +71,8 @@ namespace CandidateTesting.GabrielKobayashiBarboza.UnitTest
 
                 var result = convertToNewLog.GenerateNewLog(oldLog);
 
-                Assert.Contains("Log antigo fora do padrão.", result);
+                if (!result.Equals("Log antigo fora do padrão."))
+                    Assert.True(false);
             }
             catch (Exception e)
             {
@@ -89,7 +90,8 @@ namespace CandidateTesting.GabrielKobayashiBarboza.UnitTest
 
                 var result = convertToNewLog.GenerateNewLog(oldLog);
 
-                Assert.Contains("Log antigo fora do padrão.", result);
+                if (!result.Equals("Log antigo fora do padrão."))
+                    Assert.True(false);
             }
             catch (Exception e)
             {
@@ -107,7 +109,8 @@ namespace CandidateTesting.GabrielKobayashiBarboza.UnitTest
 
                 var result = convertToNewLog.GenerateNewLog(oldLog);
 
-                Assert.Contains("Log antigo fora do padrão.", result);
+                if (!result.Equals("Log antigo fora do padrão."))
+                    Assert.True(false);
             }
             catch (Exception e)
             {
@@ -120,12 +123,13 @@ namespace CandidateTesting.GabrielKobayashiBarboza.UnitTest
         {
             try
             {
-                var oldLog = "312|abc||\"GET /robots.txt HTTP/1.1\"|100.2";
+                var oldLog = "312|200||\"GET /robots.txt HTTP/1.1\"|100.2";
                 var convertToNewLog = new ConvertToNewLog();
 
                 var result = convertToNewLog.GenerateNewLog(oldLog);
 
-                Assert.Contains("Log antigo fora do padrão.", result);
+                if (!result.Equals("Log antigo fora do padrão."))
+                    Assert.True(false);
             }
             catch (Exception e)
             {
@@ -143,7 +147,8 @@ namespace CandidateTesting.GabrielKobayashiBarboza.UnitTest
 
                 var result = convertToNewLog.GenerateNewLog(oldLog);
 
-                Assert.Contains("Log antigo fora do padrão.", result);
+                if (!result.Equals("Log antigo fora do padrão."))
+                    Assert.True(false);
             }
             catch (Exception e)
             {
@@ -161,7 +166,8 @@ namespace CandidateTesting.GabrielKobayashiBarboza.UnitTest
 
                 var result = convertToNewLog.GenerateNewLog(oldLog);
 
-                Assert.Contains("Log antigo fora do padrão.", result);
+                if (!result.Equals("Log antigo fora do padrão."))
+                    Assert.True(false);
             }
             catch (Exception e)
             {
@@ -179,7 +185,8 @@ namespace CandidateTesting.GabrielKobayashiBarboza.UnitTest
 
                 var result = convertToNewLog.GenerateNewLog(oldLog);
 
-                Assert.Contains("Log antigo fora do padrão.", result);
+                if (!result.Equals("Log antigo fora do padrão."))
+                    Assert.True(false);
             }
             catch (Exception e)
             {
@@ -197,7 +204,8 @@ namespace CandidateTesting.GabrielKobayashiBarboza.UnitTest
 
                 var result = convertToNewLog.GenerateNewLog(oldLog);
 
-                Assert.Contains("Log antigo fora do padrão.", result);
+                if (!result.Equals("Log antigo fora do padrão."))
+                    Assert.True(false);
             }
             catch (Exception e)
             {
