@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace CandidateTesting.GabrielKobayashiBarboza.ConvertLog.Services
 {
@@ -120,6 +121,11 @@ namespace CandidateTesting.GabrielKobayashiBarboza.ConvertLog.Services
                 Log.Debug("Capturando informações do modelo antigo do log...");
                 var getInfo = log.Split('|');
 
+                var isLogValid = ValidateInfo(getInfo);
+
+                if (!isLogValid)
+                    throw new Exception("Log antigo fora do padrão.");
+
                 var httpMethod = getInfo[3].Split("/")[0].Replace("\"", "").Trim();
                 var uriPath = getInfo[3].Split(" ")[1];
                 var statusCode = int.Parse(getInfo[1]);
@@ -137,7 +143,25 @@ namespace CandidateTesting.GabrielKobayashiBarboza.ConvertLog.Services
             {
                 throw new Exception(e.Message);
             }
-        }  
+        }
+
+        private bool ValidateInfo(string[] getInfo)
+        {
+            if (getInfo.Length != 5)
+                return false;
+            if (string.IsNullOrEmpty(getInfo[0]) || !Regex.IsMatch(getInfo[0], @"^[0-9]+$"))
+                return false;
+            if (string.IsNullOrEmpty(getInfo[1]) || !Regex.IsMatch(getInfo[1], @"^[0-9]+$"))
+                return false;
+            if (string.IsNullOrEmpty(getInfo[2]) || !Regex.IsMatch(getInfo[2], @"^[a-zA-Z]+$"))
+                return false;
+            if (string.IsNullOrEmpty(getInfo[3]) || getInfo[3].Split(" ").Length != 3)
+                return false;
+            if (string.IsNullOrEmpty(getInfo[4]) || !Regex.IsMatch(getInfo[4], @"^[0-9]+([,.][0-9]{1})*$"))
+                return false;
+
+            return true;
+        }
 
         public string FormatLog(LogModelNow logModel)
         {

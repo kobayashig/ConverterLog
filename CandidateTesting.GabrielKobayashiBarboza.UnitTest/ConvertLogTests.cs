@@ -1,5 +1,6 @@
 using CandidateTesting.GabrielKobayashiBarboza.ConvertLog.Models;
 using CandidateTesting.GabrielKobayashiBarboza.ConvertLog.Services;
+using System;
 using System.IO;
 using Xunit;
 
@@ -58,6 +59,150 @@ namespace CandidateTesting.GabrielKobayashiBarboza.UnitTest
             Assert.Contains("#Date:", result);
             Assert.Contains("#Fields: provider http-method status-code uri-path time-taken response - size cache - status", result);
             Assert.Contains("\"MINHA CDN\" GET 200 /robots.txt 245 312 REFRESH_HIT", result);
+        }
+
+        [Fact]
+        public void OldLogFormatedVeryLargeTest()
+        {
+            try
+            {
+                var oldLog = "Eu|Sou|um|Log|no|Formato|incorreto";
+                var convertToNewLog = new ConvertToNewLog();
+
+                var result = convertToNewLog.GenerateNewLog(oldLog);
+
+                Assert.Contains("Log antigo fora do padrão.", result);
+            }
+            catch (Exception e)
+            {
+                Assert.Contains("Log antigo fora do padrão.", e.Message);
+            }
+        }
+
+        [Fact]
+        public void OldLogFormatedFirstFieldIncorrectTest()
+        {
+            try
+            {
+                var oldLog = "abc|200|HIT|\"GET /robots.txt HTTP/1.1\"|100.2";
+                var convertToNewLog = new ConvertToNewLog();
+
+                var result = convertToNewLog.GenerateNewLog(oldLog);
+
+                Assert.Contains("Log antigo fora do padrão.", result);
+            }
+            catch (Exception e)
+            {
+                Assert.Contains("Log antigo fora do padrão.", e.Message);
+            }
+        }
+
+        [Fact]
+        public void OldLogFormatedSecondFieldIncorrectTest()
+        {
+            try
+            {
+                var oldLog = "312|abc|HIT|\"GET /robots.txt HTTP/1.1\"|100.2";
+                var convertToNewLog = new ConvertToNewLog();
+
+                var result = convertToNewLog.GenerateNewLog(oldLog);
+
+                Assert.Contains("Log antigo fora do padrão.", result);
+            }
+            catch (Exception e)
+            {
+                Assert.Contains("Log antigo fora do padrão.", e.Message);
+            }
+        }
+
+        [Fact]
+        public void OldLogFormatedThirdFieldWhitespaceTest()
+        {
+            try
+            {
+                var oldLog = "312|abc||\"GET /robots.txt HTTP/1.1\"|100.2";
+                var convertToNewLog = new ConvertToNewLog();
+
+                var result = convertToNewLog.GenerateNewLog(oldLog);
+
+                Assert.Contains("Log antigo fora do padrão.", result);
+            }
+            catch (Exception e)
+            {
+                Assert.Contains("Log antigo fora do padrão.", e.Message);
+            }
+        }
+
+        [Fact]
+        public void OldLogFormatedThirdFieldNumberTest()
+        {
+            try
+            {
+                var oldLog = "312|200|132|\"GET /robots.txt HTTP/1.1\"|100.2";
+                var convertToNewLog = new ConvertToNewLog();
+
+                var result = convertToNewLog.GenerateNewLog(oldLog);
+
+                Assert.Contains("Log antigo fora do padrão.", result);
+            }
+            catch (Exception e)
+            {
+                Assert.Contains("Log antigo fora do padrão.", e.Message);
+            }
+        }
+
+        [Fact]
+        public void OldLogFormatedFourthFieldWhitespaceTest()
+        {
+            try
+            {
+                var oldLog = "312|200|HIT||100.2";
+                var convertToNewLog = new ConvertToNewLog();
+
+                var result = convertToNewLog.GenerateNewLog(oldLog);
+
+                Assert.Contains("Log antigo fora do padrão.", result);
+            }
+            catch (Exception e)
+            {
+                Assert.Contains("Log antigo fora do padrão.", e.Message);
+            }
+        }
+
+        [Fact]
+        public void OldLogFormatedFifthFieldWhitespaceTest()
+        {
+            try
+            {
+                var oldLog = "312|200|HIT|\"GET /robots.txt HTTP/1.1\"|";
+                var convertToNewLog = new ConvertToNewLog();
+
+                var result = convertToNewLog.GenerateNewLog(oldLog);
+
+                Assert.Contains("Log antigo fora do padrão.", result);
+            }
+            catch (Exception e)
+            {
+                Assert.Contains("Log antigo fora do padrão.", e.Message);
+            }
+        }
+
+        [Fact]
+        public void OldLogFormatedFifthFieldIncorrectTest()
+        {
+            try
+            {
+                var oldLog = "312|200|HIT|\"GET /robots.txt HTTP/1.1\"|abc";
+                var convertToNewLog = new ConvertToNewLog();
+
+                var result = convertToNewLog.GenerateNewLog(oldLog);
+
+                Assert.Contains("Log antigo fora do padrão.", result);
+            }
+            catch (Exception e)
+            {
+                Assert.Contains("Log antigo fora do padrão.", e.Message);
+            }
         }
 
         [Fact]
