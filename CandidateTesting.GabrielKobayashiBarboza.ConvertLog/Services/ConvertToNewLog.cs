@@ -157,7 +157,7 @@ namespace CandidateTesting.GabrielKobayashiBarboza.ConvertLog.Services
                 return false;
             if (string.IsNullOrEmpty(getInfo[3]) || getInfo[3].Split(" ").Length != 3)
                 return false;
-            if (string.IsNullOrEmpty(getInfo[4]) || !Regex.IsMatch(getInfo[4], @"^[0-9]+([,.][0-9]{1})*$"))
+            if (string.IsNullOrEmpty(getInfo[4]) || !Regex.IsMatch(getInfo[4].Replace("\r", ""), @"^[0-9]+([,.][0-9]{1})*$"))
                 return false;
 
             return true;
